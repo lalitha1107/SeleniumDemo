@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-06T11:17:09Z" name="PageObjectModel" finished-at="2019-09-06T11:17:09Z" duration-ms="602">
+  <suite started-at="2019-09-06T11:50:29Z" name="PageObjectModel" finished-at="2019-09-06T11:50:29Z" duration-ms="658">
     <groups>
     </groups>
-    <test started-at="2019-09-06T11:17:09Z" name="testngTest" finished-at="2019-09-06T11:17:09Z" duration-ms="602">
+    <test started-at="2019-09-06T11:50:29Z" name="testngTest" finished-at="2019-09-06T11:50:29Z" duration-ms="658">
       <class name="com.qa.pagestest.PagesTest">
-        <test-method is-config="true" signature="login_setup()[pri:0, instance:com.qa.pagestest.PagesTest@7fcbe147]" started-at="2019-09-06T11:17:09Z" name="login_setup" finished-at="2019-09-06T11:17:09Z" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="login_setup()[pri:0, instance:com.qa.pagestest.PagesTest@7fcbe147]" started-at="2019-09-06T11:50:29Z" name="login_setup" finished-at="2019-09-06T11:50:29Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_setup -->
-        <test-method signature="login_Test()[pri:0, instance:com.qa.pagestest.PagesTest@7fcbe147]" started-at="2019-09-06T11:17:09Z" name="login_Test" finished-at="2019-09-06T11:17:09Z" duration-ms="451" status="PASS">
+        <test-method signature="login_Test()[pri:0, instance:com.qa.pagestest.PagesTest@7fcbe147]" started-at="2019-09-06T11:50:29Z" name="login_Test" finished-at="2019-09-06T11:50:29Z" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_Test -->
-        <test-method is-config="true" signature="quit_driver()[pri:0, instance:com.qa.pagestest.PagesTest@7fcbe147]" started-at="2019-09-06T11:17:09Z" name="quit_driver" finished-at="2019-09-06T11:17:09Z" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="quit_driver()[pri:0, instance:com.qa.pagestest.PagesTest@7fcbe147]" started-at="2019-09-06T11:50:29Z" name="quit_driver" finished-at="2019-09-06T11:50:29Z" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit_driver -->

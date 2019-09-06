@@ -2,6 +2,7 @@ package com.qa.pagestest;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -10,7 +11,7 @@ import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 
 public class PagesTest extends Testbase{
-	LoginPage lp =new LoginPage(); ;
+	LoginPage lp=new LoginPage();
 	
 	
 	public PagesTest() throws IOException {
@@ -33,9 +34,15 @@ public class PagesTest extends Testbase{
 	
 	
 	@Test
-	public void login_Test() 
+	public void login_Test() throws IOException 
 	{
-		
+		//lp =new LoginPage(); 
 		lp.login_click(username, pwd);
+	}
+	
+	@AfterMethod
+	public void quit_driver()
+	{
+		driver.close();
 	}
 }

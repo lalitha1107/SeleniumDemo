@@ -30,7 +30,7 @@ public static WebDriver driver;
 	{
 		 prop = new Properties();
 		
-		 propFileName="/Users/lalithakumari/eclipse-workspace/restapi/config/config.properties";
+		 propFileName="/Users/lalithakumari/eclipse-workspace/PageOjectModelDemo/config/config.properties";
 		 //propFileName = System.getProperty("user.dir")+"/src/main/java/com/qa/config/config.properties";
 
 		  try {

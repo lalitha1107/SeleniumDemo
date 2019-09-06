@@ -17,7 +17,7 @@ public class ContactPage extends Testbase{
 	@FindBy(how=How.XPATH, using="//span[contains(text(),'Contacts')]")
 	WebElement web_contact;
 	
-	@FindBy(how=How.XPATH, using="//input[@name,'first_name']";
+	@FindBy(how=How.XPATH, using="//input[@name,'first_name']")
 	WebElement web_fstname;
 
 	public ContactPage() throws IOException {

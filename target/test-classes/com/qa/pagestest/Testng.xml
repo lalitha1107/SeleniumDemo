@@ -1,7 +1,7 @@
 <suite name="PageObjectModel">
 	<test name="testngTest">
 		<classes>
-			<class name=".PagesTest" />
+			<class name="com.qa.pagestest.PagesTest" />
 		</classes>
 	</test>
 </suite>

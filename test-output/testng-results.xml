@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-23T10:23:27Z" name="Default suite" finished-at="2019-08-23T10:23:45Z" duration-ms="17995">
+  <suite started-at="2019-09-06T11:17:09Z" name="PageObjectModel" finished-at="2019-09-06T11:17:09Z" duration-ms="602">
     <groups>
     </groups>
-    <test started-at="2019-08-23T10:23:27Z" name="Default test" finished-at="2019-08-23T10:23:45Z" duration-ms="17995">
-      <class name="com.qa.pagestest.HomePageTest">
-        <test-method is-config="true" signature="home_setup()[pri:0, instance:com.qa.pagestest.HomePageTest@77f1baf5]" started-at="2019-08-23T10:23:27Z" name="home_setup" finished-at="2019-08-23T10:23:35Z" duration-ms="7331" status="PASS">
+    <test started-at="2019-09-06T11:17:09Z" name="testngTest" finished-at="2019-09-06T11:17:09Z" duration-ms="602">
+      <class name="com.qa.pagestest.PagesTest">
+        <test-method is-config="true" signature="login_setup()[pri:0, instance:com.qa.pagestest.PagesTest@7fcbe147]" started-at="2019-09-06T11:17:09Z" name="login_setup" finished-at="2019-09-06T11:17:09Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- home_setup -->
-        <test-method signature="homepage_test()[pri:1, instance:com.qa.pagestest.HomePageTest@77f1baf5]" started-at="2019-08-23T10:23:35Z" name="homepage_test" finished-at="2019-08-23T10:23:35Z" duration-ms="500" status="PASS">
+        </test-method> <!-- login_setup -->
+        <test-method signature="login_Test()[pri:0, instance:com.qa.pagestest.PagesTest@7fcbe147]" started-at="2019-09-06T11:17:09Z" name="login_Test" finished-at="2019-09-06T11:17:09Z" duration-ms="451" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homepage_test -->
-        <test-method is-config="true" signature="home_setup()[pri:0, instance:com.qa.pagestest.HomePageTest@77f1baf5]" started-at="2019-08-23T10:23:35Z" name="home_setup" finished-at="2019-08-23T10:23:42Z" duration-ms="6788" status="PASS">
+        </test-method> <!-- login_Test -->
+        <test-method is-config="true" signature="quit_driver()[pri:0, instance:com.qa.pagestest.PagesTest@7fcbe147]" started-at="2019-09-06T11:17:09Z" name="quit_driver" finished-at="2019-09-06T11:17:09Z" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- home_setup -->
-        <test-method signature="clickcontact_test()[pri:2, instance:com.qa.pagestest.HomePageTest@77f1baf5]" started-at="2019-08-23T10:23:42Z" name="clickcontact_test" finished-at="2019-08-23T10:23:45Z" duration-ms="3314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickcontact_test -->
-      </class> <!-- com.qa.pagestest.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- quit_driver -->
+      </class> <!-- com.qa.pagestest.PagesTest -->
+    </test> <!-- testngTest -->
+  </suite> <!-- PageObjectModel -->
 </testng-results>

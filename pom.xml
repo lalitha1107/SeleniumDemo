@@ -33,11 +33,9 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.21.0</version>
         <configuration>
-	<reuseForks>true</reuseForks>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-		<useSystemClassLoader>false</useSystemClassLoader>
+            <skipTests>false</skipTests>
+            <testFailureIgnore>true</testFailureIgnore>
+            <forkMode>once</forkMode>
         </configuration>
       </plugin>
 

@@ -34,6 +34,9 @@
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
 		<forkMode>never</forkMode> 
+		  <configuration>
+      <jvm>${env.JAVA_HOME}/bin/java</jvm>
+    </configuration>
         </configuration>
       </plugin>
 	 </plugins>
